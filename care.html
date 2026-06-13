@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>손·발톱 케어 | 쵸코네일 삼송점</title>
+    <meta
+      name="description"
+      content="쵸코네일 삼송점의 기본 손·발 케어, 문제성 손·발톱 관리, 내성 발톱 관리와 상담 과정을 안내합니다."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:,">
+
+    <style>
+      /* care.html 전용 상단 히어로 보정 */
+      .care-site-header {
+        padding-bottom: 0;
+      }
+
+      .care-hero {
+        position: relative;
+        width: min(1120px, calc(100% - 32px));
+        min-height: 520px;
+        margin: 24px auto 0;
+        overflow: hidden;
+        border-radius: 32px;
+        background: #f8ece8;
+      }
+
+      .care-hero-media {
+        position: absolute;
+        inset: 0;
+      }
+
+      .care-hero-media img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+        object-position: center center;
+      }
+
+      .care-hero::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(90deg, rgba(255, 249, 247, 0.96) 0%, rgba(255, 249, 247, 0.82) 36%, rgba(255, 249, 247, 0.08) 68%, rgba(255, 249, 247, 0) 100%);
+        pointer-events: none;
+      }
+
+      .care-hero-copy {
+        position: relative;
+        z-index: 1;
+        width: min(520px, 48%);
+        min-height: 520px;
+        margin: 0;
+        padding: 96px 56px 56px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background: transparent;
+        box-shadow: none;
+        backdrop-filter: none;
+      }
+
+      .care-hero-copy h1 {
+        margin: 10px 0 18px;
+      }
+
+      .care-hero-copy > p:not(.eyebrow) {
+        max-width: 430px;
+        line-height: 1.8;
+      }
+
+      .care-hero .care-action-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .care-hero .button {
+        min-width: 132px;
+        text-align: center;
+      }
+
+      @media (max-width: 760px) {
+        .care-hero {
+          width: min(100% - 20px, 680px);
+          min-height: 620px;
+          border-radius: 24px;
+        }
+
+        .care-hero-media img {
+          object-position: 68% center;
+        }
+
+        .care-hero::after {
+          background: linear-gradient(180deg, rgba(255, 249, 247, 0.18) 0%, rgba(255, 249, 247, 0.35) 42%, rgba(255, 249, 247, 0.96) 72%, rgba(255, 249, 247, 1) 100%);
+        }
+
+        .care-hero-copy {
+          width: 100%;
+          min-height: 620px;
+          padding: 330px 24px 30px;
+          justify-content: flex-end;
+        }
+
+        .care-hero .care-action-row {
+          width: 100%;
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+
+        .care-hero .button {
+          width: 100%;
+        }
+      }
+
+      /* 케어 사례 실제 이미지 */
+      .care-cases-section .care-before-after {
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+
+      .care-cases-section .care-before-after figure {
+        margin: 0;
+        overflow: hidden;
+      }
+
+      .care-cases-section .care-before-after figure > img {
+        display: block;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        margin: 0 auto;
+        object-fit: contain;
+        background: #fff1ed;
+      }
+
+    </style>
+  </head>
+  <body class="care-page">
+    <header class="care-site-header" id="top">
+      <nav class="top-nav" aria-label="주요 메뉴">
+        <a class="brand" href="index.html" aria-label="쵸코네일 삼송점 홈">
+          <span class="brand-mark">C</span>
+          <span class="brand-text">CHOCO NAIL</span>
+        </a>
+        <div class="nav-links">
+          <a href="about.html">About</a>
+          <a href="care.html" aria-current="page">Care</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="#care-contact">예약</a>
+        </div>
+      </nav>
+
+      <section class="care-hero" aria-labelledby="care-hero-title">
+        <div class="care-hero-media">
+          <img src="images/care/main-optimized.jpg" alt="쵸코네일 손·발톱 케어 서비스" width="2048" height="768" fetchpriority="high">
+        </div>
+        <div class="care-hero-copy glass-card">
+          <p class="eyebrow">CHOCO NAIL CARE</p>
+          <h1 id="care-hero-title">손·발톱 케어</h1>
+          <p>손톱과 발톱 상태를 확인하고 현재 상태에 맞는 관리 방법을 안내해드립니다.</p>
+
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="care-section" aria-labelledby="care-services-title">
+        <div class="care-section-heading">
+          <p class="eyebrow">Care Services</p>
+          <h2 id="care-services-title">상태에 맞춰 살펴보는 케어 서비스</h2>
+          <p>기본 정리부터 손·발톱 컨디션을 고려한 관리까지 상담 후 알맞은 서비스를 안내합니다.</p>
+        </div>
+
+        <div class="care-service-grid">
+          <article class="care-service-card">
+            <div class="care-card-media">
+              <img src="images/care/hand-care-optimized.jpg" alt="기본 손 케어 서비스" width="1448" height="1086" loading="lazy">
+              <div class="care-image-fallback" aria-hidden="true"><span>CHOCO NAIL</span><strong>이미지 준비 중</strong></div>
+            </div>
+            <div class="care-card-copy">
+              <h3>기본 손 케어</h3>
+              <p>손톱 모양과 주변을 깔끔하고 단정하게 정리합니다.</p>
+           
+            </div>
+          </article>
+
+          <article class="care-service-card">
+            <div class="care-card-media">
+              <img src="images/care/foot-care-optimized.jpg" alt="기본 발 케어 서비스" width="1448" height="1086" loading="lazy">
+              <div class="care-image-fallback" aria-hidden="true"><span>CHOCO NAIL</span><strong>이미지 준비 중</strong></div>
+            </div>
+            <div class="care-card-copy">
+              <h3>기본 발 케어</h3>
+              <p>발톱과 주변을 편안하고 청결하게 관리합니다.</p>
+              
+            </div>
+          </article>
+
+          <article class="care-service-card">
+            <div class="care-card-media">
+              <img src="images/care/problem-nail-optimized.jpg" alt="문제성 손톱 관리 서비스" width="1448" height="1086" loading="lazy">
+              <div class="care-image-fallback" aria-hidden="true"><span>CHOCO NAIL</span><strong>이미지 준비 중</strong></div>
+            </div>
+            <div class="care-card-copy">
+              <h3>문제성 손톱 관리</h3>
+              <p>손톱 상태와 생활 습관을 확인해 관리 방향을 안내합니다.</p>
+              
+            </div>
+          </article>
+
+          <article class="care-service-card">
+            <div class="care-card-media">
+              <img src="images/care/problem-foot-optimized.jpg" alt="문제성 발톱 관리 서비스" width="1448" height="1086" loading="lazy">
+              <div class="care-image-fallback" aria-hidden="true"><span>CHOCO NAIL</span><strong>이미지 준비 중</strong></div>
+            </div>
+            <div class="care-card-copy">
+              <h3>문제성 발톱 관리</h3>
+              <p>두께와 변색 등 현재 발톱 컨디션에 맞춰 관리합니다.</p>
+             
+            </div>
+          </article>
+
+          <article class="care-service-card">
+            <div class="care-card-media">
+              <img src="images/care/ingrown-care-optimized.jpg" alt="내성 발톱 관리 서비스" width="1448" height="1086" loading="lazy">
+              <div class="care-image-fallback" aria-hidden="true"><span>CHOCO NAIL</span><strong>이미지 준비 중</strong></div>
+            </div>
+            <div class="care-card-copy">
+              <h3>내성 발톱 관리</h3>
+              <p>불편한 부위를 살피고 네일 케어 범위의 관리를 안내합니다.</p>
+              
+            </div>
+          </article>
+
+          <article class="care-service-card">
+            <div class="care-card-media">
+              <img src="images/care/onychogryphosis-care-optimized.jpg" alt="교조증 발톱 관리 서비스" width="1448" height="1086" loading="lazy">
+              <div class="care-image-fallback" aria-hidden="true"><span>CHOCO NAIL</span><strong>이미지 준비 중</strong></div>
+            </div>
+            <div class="care-card-copy">
+              <h3>교조증 관리</h3>
+              <p>두껍고 굴곡진 발톱 상태를 확인한 뒤 관리 방법을 상담합니다.</p>
+             
+            </div>
+          </article>
+
+          <article class="care-service-card">
+            <div class="care-card-media">
+              <img src="images/care/extension-care-optimized.jpg" alt="손톱 연장 및 보강 서비스" width="1448" height="1086" loading="lazy">
+              <div class="care-image-fallback" aria-hidden="true"><span>CHOCO NAIL</span><strong>이미지 준비 중</strong></div>
+            </div>
+            <div class="care-card-copy">
+              <h3>손톱 연장 및 보강</h3>
+              <p>갈라지거나 약해진 손톱을 상태에 맞게 보강합니다.</p>
+              
+            </div>
+          </article>
+
+          <article class="care-service-card">
+            <div class="care-card-media">
+              <img src="images/care/men-care-optimized.jpg" alt="맨즈 손·발톱 케어 서비스" loading="lazy">
+              <div class="care-image-fallback" aria-hidden="true"><span>CHOCO NAIL</span><strong>이미지 준비 중</strong></div>
+            </div>
+            <div class="care-card-copy">
+              <h3>맨즈 케어</h3>
+              <p>손·발톱과 주변을 자연스럽고 단정하게 정리합니다.</p>
+             
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="care-section care-recommend-section" aria-labelledby="care-recommend-title">
+        <div class="care-section-heading">
+          <p class="eyebrow">Recommended For</p>
+          <h2 id="care-recommend-title">이런 분께 추천합니다</h2>
+        </div>
+        <div class="care-check-grid">
+          <article><span aria-hidden="true">✓</span><p>손톱이 쉽게 갈라지거나 깨지는 분</p></article>
+          <article><span aria-hidden="true">✓</span><p>손톱 주변 정리가 필요한 분</p></article>
+          <article><span aria-hidden="true">✓</span><p>발톱이 두껍거나 변색된 분</p></article>
+          <article><span aria-hidden="true">✓</span><p>내성 발톱으로 불편함이 있는 분</p></article>
+          <article><span aria-hidden="true">✓</span><p>손·발톱 상태에 맞는 관리가 필요한 분</p></article>
+        </div>
+      </section>
+
+      <section class="care-section" aria-labelledby="care-process-title">
+        <div class="care-section-heading">
+          <p class="eyebrow">Care Process</p>
+          <h2 id="care-process-title">관리 진행 과정</h2>
+          <p>현재 상태를 충분히 확인한 후 필요한 관리와 홈케어 방법을 차분하게 안내합니다.</p>
+        </div>
+        <ol class="care-process-list">
+          <li>
+            <span>01</span>
+            <div><h3>상태 확인</h3><p>손·발톱과 주변 컨디션, 불편한 부분을 살펴봅니다.</p></div>
+          </li>
+          <li>
+            <span>02</span>
+            <div><h3>맞춤 상담</h3><p>생활 습관과 원하는 관리 방향을 함께 확인합니다.</p></div>
+          </li>
+          <li>
+            <span>03</span>
+            <div><h3>손·발톱 관리</h3><p>상담 내용을 바탕으로 네일 케어 범위의 관리를 진행합니다.</p></div>
+          </li>
+          <li>
+            <span>04</span>
+            <div><h3>홈케어 안내</h3><p>일상에서 편안하게 관리할 수 있는 방법을 안내합니다.</p></div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="care-section care-cases-section" aria-labelledby="care-cases-title">
+        <div class="care-section-heading">
+          <p class="eyebrow">Care Cases</p>
+          <h2 id="care-cases-title">케어 사례</h2>
+          <p>관리 전후 이미지는 실제 사례가 준비되는 대로 같은 구조에 추가할 수 있습니다.</p>
+        </div>
+
+        <div class="care-case-grid">
+          <!-- 사례를 숨기려면 해당 care-case-card에 hidden 속성을 추가하세요. -->
+          <article class="care-case-card">
+            <div class="care-before-after">
+              <figure>
+                <img
+                  src="images/care/case-hand-before-optimized.jpg"
+                  alt="손톱 주변 정리와 보습 관리 전"
+                  width="1254"
+                  height="1254"
+                  loading="lazy"
+                >
+                <figcaption>관리 전</figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="images/care/case-hand-after-optimized.jpg"
+                  alt="손톱 주변 정리와 보습 관리 후"
+                  width="1254"
+                  height="1254"
+                  loading="lazy"
+                >
+                <figcaption>관리 후</figcaption>
+              </figure>
+            </div>
+            <div class="care-case-copy">
+              <span>기본 케어 사례</span>
+              <h3>손톱 주변 정리와 보습 관리</h3>
+              <p>건조하고 거칠어진 손톱 주변을 정리한 뒤, 보습 케어를 더해 한층 깔끔하고 건강해 보이도록 관리한 사례</p>
+            </div>
+          </article>
+
+          <article class="care-case-card">
+            <div class="care-before-after">
+              <figure>
+                <img
+                  src="images/care/case-foot-before-optimized.jpg"
+                  alt="발톱 상태 확인과 기본 정리 전"
+                  width="900"
+                  height="900"
+                  loading="lazy"
+                >
+                <figcaption>관리 전</figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="images/care/case-foot-after-optimized.jpg"
+                  alt="발톱 상태 확인과 기본 정리 후"
+                  width="612"
+                  height="612"
+                  loading="lazy"
+                >
+                <figcaption>관리 후</figcaption>
+              </figure>
+            </div>
+            <div class="care-case-copy">
+              <span>발톱 관리 사례</span>
+              <h3>발톱 상태 확인과 기본 정리</h3>
+              <p>발톱의 모양과 주변 컨디션을 꼼꼼히 확인한 후, 기본 정리와 클린 케어를 통해 한층 단정하고 편안한 상태로 관리한 사례</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="care-section">
+        <aside class="care-notice" aria-labelledby="care-notice-title">
+          <div>
+            <p class="eyebrow">Before Your Visit</p>
+            <h2 id="care-notice-title">안내사항</h2>
+          </div>
+          <ul>
+            <li>손·발톱 상태에 따라 관리 방법과 소요 시간이 달라질 수 있습니다.</li>
+            <li>정확한 관리 내용은 방문 상담 후 안내됩니다.</li>
+            <li>본 서비스는 네일 케어 범위의 관리 서비스입니다.</li>
+            <li>통증, 출혈, 염증 등 의료적 처치가 필요한 경우 의료기관 상담이 필요할 수 있습니다.</li>
+          </ul>
+        </aside>
+      </section>
+
+
+    </main>
+
+    <footer class="site-footer">
+      <strong>CHOCO NAIL</strong>
+      <p>Choco Nail Samsong. Sophisticated Cozy nail care.</p>
+      <div class="footer-links">
+        <a href="#care-contact">예약</a>
+        <a href="gallery.html">갤러리</a>
+        <a href="index.html#location">위치</a>
+      </div>
+    </footer>
+
+    <nav class="bottom-nav" aria-label="모바일 빠른 메뉴">
+      <a href="#care-contact">예약</a>
+      <a href="gallery.html">갤러리</a>
+      <a href="care.html" aria-current="page">케어</a>
+      <a href="tel:01055995908" aria-label="010-5599-5908로 전화하기">전화</a>
+    </nav>
+
+    <script>
+      document.querySelectorAll(".care-card-media img").forEach((image) => {
+        const showFallback = () => {
+          image.hidden = true;
+          image.nextElementSibling?.removeAttribute("aria-hidden");
+        };
+
+        if (image.complete && image.naturalWidth === 0) {
+          showFallback();
+        } else {
+          image.addEventListener("error", showFallback, { once: true });
+        }
+      });
+    </script>
+  </body>
+</html>

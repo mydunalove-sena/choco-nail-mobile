@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>쵸코네일 갤러리 | Choco Nail Samsong</title>
+    <meta
+      name="description"
+      content="쵸코네일 삼송점의 네일, 패디, 이달의 아트 시술 사례를 확인해보세요."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:,">
+    <script src="js/gallery.js" defer></script>
+  </head>
+  <body class="gallery-page">
+    <header class="gallery-site-header" id="top">
+      <nav class="top-nav" aria-label="주요 메뉴">
+        <a class="brand" href="index.html" aria-label="쵸코네일 삼송점 홈">
+          <span class="brand-mark">C</span>
+          <span class="brand-text">CHOCO NAIL</span>
+        </a>
+        <div class="nav-links">
+          <a href="about.html">About</a>
+          <a href="care.html">Care</a>
+          <a href="gallery.html" aria-current="page">Gallery</a>
+          <a href="index.html#booking">예약</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="gallery-main">
+      <section class="gallery-intro" aria-labelledby="gallery-page-title">
+        <p class="eyebrow">Choco Nail Works</p>
+        <h1 id="gallery-page-title">쵸코네일 갤러리</h1>
+        <p>쵸코네일의 시술 사례를 카테고리별로 확인해보세요.</p>
+      </section>
+
+      <section class="gallery-content" aria-label="시술 사례">
+        <div class="gallery-filters" role="group" aria-label="갤러리 카테고리 필터">
+          <button class="is-active" type="button" data-category="all" aria-pressed="true">전체</button>
+          <button type="button" data-category="nail" aria-pressed="false">네일</button>
+          <button type="button" data-category="pedi" aria-pressed="false">패디</button>
+          <button type="button" data-category="art" aria-pressed="false">이달의 아트</button>
+        </div>
+
+        <p class="gallery-status" id="gallery-status" role="status" aria-live="polite">
+          갤러리를 불러오는 중입니다.
+        </p>
+        <div class="gallery-grid" id="gallery-grid" aria-describedby="gallery-status"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <strong>CHOCO NAIL</strong>
+      <p>Choco Nail Samsong. Sophisticated Cozy nail care.</p>
+      <div class="footer-links">
+        <a href="index.html#booking">예약</a>
+        <a href="index.html#location">위치</a>
+        <a href="https://www.instagram.com/choco__nail" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </footer>
+
+    <nav class="bottom-nav" aria-label="모바일 빠른 메뉴">
+      <a href="index.html#booking">예약</a>
+      <a href="gallery.html" aria-current="page">갤러리</a>
+      <a href="care.html">케어</a>
+      <a href="https://www.instagram.com/choco__nail" target="_blank" rel="noopener noreferrer">SNS</a>
+    </nav>
+
+    <div class="gallery-modal" id="gallery-modal" aria-hidden="true">
+      <div class="gallery-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="gallery-modal-title">
+        <button class="gallery-modal-close" type="button" aria-label="큰 이미지 닫기">&times;</button>
+        <img alt="">
+        <p id="gallery-modal-title"></p>
+      </div>
+    </div>
+  </body>
+</html>
