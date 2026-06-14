@@ -78,15 +78,6 @@ a {
   backdrop-filter: blur(20px);
 }
 
-.about-site-header > .about-hero,
-.care-site-header > .care-hero {
-  margin-top: calc(var(--top-nav-clearance) - 1rem);
-}
-
-.gallery-page > .gallery-site-header {
-  min-height: var(--top-nav-clearance);
-}
-
 .brand {
   display: inline-flex;
   align-items: center;
@@ -893,10 +884,6 @@ body.modal-open {
   overflow: hidden;
 }
 
-.gallery-site-header {
-  min-height: 6rem;
-}
-
 .gallery-main {
   min-height: 70vh;
 }
@@ -1143,11 +1130,6 @@ body.modal-open {
 }
 
 /* Care service page */
-.care-site-header {
-  min-height: 0;
-  padding: 1rem 0 0;
-}
-
 .care-hero,
 .care-section {
   width: auto;
@@ -1165,7 +1147,6 @@ body.modal-open {
 .care-hero {
   position: relative;
   display: grid;
-  margin-top: 5.5rem;
   overflow: hidden;
   border: 1px solid rgba(214, 194, 191, 0.5);
   border-radius: var(--radius-xl);
@@ -1681,10 +1662,6 @@ body.modal-open {
     padding: 1.5rem 1.5rem 1.65rem;
   }
 
-  .gallery-site-header {
-    min-height: 7rem;
-  }
-
   .gallery-intro,
   .gallery-content {
     width: calc(100% - 48px);
@@ -1704,10 +1681,6 @@ body.modal-open {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .care-site-header {
-    min-height: 0;
-  }
-
   .care-hero,
   .care-section {
     width: calc(100% - 48px);
@@ -1719,7 +1692,6 @@ body.modal-open {
     display: block;
     min-height: 0;
     aspect-ratio: 8 / 3;
-    margin-top: 5.5rem;
   }
 
   .care-hero-media {
@@ -1868,11 +1840,6 @@ body.modal-open {
   background: #fff7f4;
 }
 
-.about-site-header {
-  min-height: 0;
-  padding: 1rem 0 0;
-}
-
 .about-hero {
   position: relative;
   min-height: 37rem;
@@ -1880,7 +1847,7 @@ body.modal-open {
   align-items: end;
   width: auto;
   max-width: 1120px;
-  margin: 5.5rem 1.5rem 0;
+  margin: 0 1.5rem;
   overflow: hidden;
   border-radius: var(--radius-xl);
   background: #ead7c9;
