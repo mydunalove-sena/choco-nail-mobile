@@ -1,0 +1,452 @@
+[
+  {
+    "id": "202606-art-001",
+    "category": "art",
+    "categoryName": "이달의 아트",
+    "title": "파우더스톤아트",
+    "description": "다가오는 여름 시즌에 어울리는 오션 무드 패디",
+    "image": "images/gallery/2026-06/art_001-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 1
+  },
+  {
+    "id": "202606-art-002",
+    "category": "art",
+    "categoryName": "이달의 아트",
+    "title": "크리스탈 오로라 글라스 네일아트",
+    "description": "투명한 실버 베이스에 오로라 글라스 조각과 미세 글리터를 가득 채운 젤네일",
+    "image": "images/gallery/2026-06/art_002-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 1
+  },
+  {
+    "id": "202606-art-003",
+    "category": "art",
+    "categoryName": "이달의 아트",
+    "title": "루돌프 크리스마스 네일",
+    "description": "은은하게 반짝이는 실버 글리터 베이스에 빨간 코의 루돌프 아트를 더한 겨울 시즌 네일",
+    "image": "images/gallery/2026-06/art_003-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 1
+  },
+  {
+    "id": "202606-art-004",
+    "category": "art",
+    "categoryName": "이달의 아트",
+    "title": "스노우맨 크리스마스 네일",
+    "description": "은은한 누드 베이스에 실버 크리스마스트리와 입체 눈사람 아트를 더한 겨울 시즌 네일",
+    "image": "images/gallery/2026-06/art_004-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 1
+  },
+  {
+    "id": "202606-art-005",
+    "category": "art",
+    "categoryName": "이달의 아트",
+    "title": "딥 그린 크리스마스 네일",
+    "description": "깊이감 있는 포레스트 그린 컬러에 산타와 크리스마스트리 아트를 더한 겨울 시즌 네일",
+    "image": "images/gallery/2026-06/art_005-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 1
+  },
+  {
+    "id": "202606-art-006",
+    "category": "art",
+    "categoryName": "이달의 아트",
+    "title": "아이스 블루 스노우 패디",
+    "description": "맑은 아이스 블루 베이스에 화이트 눈꽃과 반짝이는 별빛 아트를 더한 겨울 시즌 패디",
+    "image": "images/gallery/2026-06/art_006-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 1
+  },
+  {
+    "id": "202606-art-007",
+    "category": "art",
+    "categoryName": "이달의 아트",
+    "title": "윈터 스타 샤워 네일",
+    "description": "맑은 밀키 베이스에 블루와 네이비 별빛, 오로라 글리터를 흩뿌린 겨울 시즌 네일입",
+    "image": "images/gallery/2026-06/art_007-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 1
+  },
+  {
+    "id": "202606-art-008",
+    "category": "art",
+    "categoryName": "이달의 아트",
+    "title": "민트 블로썸 주얼 네일",
+    "description": "청량한 민트 컬러에 화이트 플라워와 주얼 파츠를 더한 젤네일",
+    "image": "images/gallery/2026-06/art_008-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 1
+  },
+  {
+    "id": "202606-art-009",
+    "category": "art",
+    "categoryName": "이달의 아트",
+    "title": "실버 크롬 오브제 네일",
+    "description": "투명한 누드 베이스에 실버 크롬 조각과 블랙 도트 포인트를 더한 젤네일",
+    "image": "images/gallery/2026-06/art_009-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 1
+  },
+  {
+    "id": "202606-art-010",
+    "category": "art",
+    "categoryName": "이달의 아트",
+    "title": "오팔 트위드 믹스 네일",
+    "description": "은은한 오팔빛 마블 아트와 화이트 트위드 패턴을 조합한 젤네일",
+    "image": "images/gallery/2026-06/art_010-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 1
+  },
+  {
+    "id": "202606-art-011",
+    "category": "art",
+    "categoryName": "이달의 아트",
+    "title": "베어 피크닉 체크 네일",
+    "description": "레드와 그린 체크 패턴에 귀여운 곰돌이와 체리 아트를 더한 젤네일",
+    "image": "images/gallery/2026-06/art_011-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 1
+  },
+  {
+    "id": "202606-art-012",
+    "category": "art",
+    "categoryName": "이달의 아트",
+    "title": "피치 블로썸 주얼 네일",
+    "description": "맑은 피치 코랄 시럽 베이스에 입체 플라워와 진주·주얼 파츠를 더한 젤네일",
+    "image": "images/gallery/2026-06/art_012-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 1
+  },
+  {
+    "id": "202606-care-001",
+    "category": "care",
+    "categoryName": "케어",
+    "title": "케어 시술 사례",
+    "description": "",
+    "image": "images/gallery/2026-06/care_001.png",
+    "visible": "N",
+    "sortOrder": 2
+  },
+  {
+    "id": "202606-nail-001",
+    "category": "nail",
+    "categoryName": "네일",
+    "title": "파스텔 셔벗 시럽 네일",
+    "description": "핑크, 민트, 라벤더, 스카이블루 컬러를 조합한 파스텔 무드 젤네일",
+    "image": "images/gallery/2026-06/nail_001.jpg",
+    "visible": "Y",
+    "sortOrder": 3
+  },
+  {
+    "id": "202606-nail-002",
+    "category": "nail",
+    "categoryName": "네일",
+    "title": "블랙 골드 오로라 네일",
+    "description": "시크한 블랙 컬러에 골드 글리터와 오로라 포인트를 더한 젤네일",
+    "image": "images/gallery/2026-06/nail_002.jpg",
+    "visible": "Y",
+    "sortOrder": 4
+  },
+  {
+    "id": "202606-nail-003",
+    "category": "nail",
+    "categoryName": "네일",
+    "title": "썸머 플라워 시럽 네일",
+    "description": "은은한 누드 핑크 시럽 베이스에 블루와 옐로우 플라워 포인트를 더한 젤네일",
+    "image": "images/gallery/2026-06/nail_003.jpg",
+    "visible": "Y",
+    "sortOrder": 5
+  },
+  {
+    "id": "202606-nail-004",
+    "category": "nail",
+    "categoryName": "네일",
+    "title": "핑크 실버 글리터 네일",
+    "description": "러블리한 핑크 컬러에 실버 글리터 포인트를 더한 젤네일",
+    "image": "images/gallery/2026-06/nail_004.jpg",
+    "visible": "Y",
+    "sortOrder": 6
+  },
+  {
+    "id": "202606-nail-005",
+    "category": "nail",
+    "categoryName": "네일",
+    "title": "블랙 샴페인 주얼 네일",
+    "description": "깊이감 있는 블랙 컬러에 샴페인 골드 글리터와 주얼 파츠를 더한 젤네일",
+    "image": "images/gallery/2026-06/nail_005.jpg",
+    "visible": "Y",
+    "sortOrder": 7
+  },
+  {
+    "id": "202606-nail-006",
+    "category": "nail",
+    "categoryName": "네일",
+    "title": "블랙 샴페인 글램 네일",
+    "description": "시크한 블랙 컬러에 샴페인 골드 글리터와 주얼 파츠를 더한 글램 무드 젤네일",
+    "image": "images/gallery/2026-06/nail_006.jpg",
+    "visible": "Y",
+    "sortOrder": 8
+  },
+  {
+    "id": "202606-nail-007",
+    "category": "nail",
+    "categoryName": "네일",
+    "title": "옴브레그라데이션 네일",
+    "description": "부드러운 핑크 베이스에 화이트 그라데이션을 더한 젤네일",
+    "image": "images/gallery/2026-06/nail_007.jpg",
+    "visible": "Y",
+    "sortOrder": 9
+  },
+  {
+    "id": "202606-nail-008",
+    "category": "nail",
+    "categoryName": "네일",
+    "title": "밀키 오팔 자석 네일",
+    "description": "은은한 누드 핑크 베이스에 밀키한 오팔 광택을 더한 자석 네일",
+    "image": "images/gallery/2026-06/nail_008.jpg",
+    "visible": "Y",
+    "sortOrder": 10
+  },
+  {
+    "id": "202606-nail-009",
+    "category": "nail",
+    "categoryName": "네일",
+    "title": "네일 시술 사례",
+    "description": "",
+    "image": "images/gallery/2026-06/nail_009.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-nail-010",
+    "category": "nail",
+    "categoryName": "네일",
+    "title": "버건디 딥 그라데이션 네일",
+    "description": "깊이감 있는 버건디 컬러에 블랙 그라데이션을 더한 젤네일",
+    "image": "images/gallery/2026-06/nail_010.jpg",
+    "visible": "Y",
+    "sortOrder": 12
+  },
+  {
+    "id": "202606-nail-011",
+    "category": "nail",
+    "categoryName": "네일",
+    "title": "펄 하트 브라이덜 네일",
+    "description": "부드러운 밀키 화이트 베이스에 진주로 완성한 하트 프레임을 더한 로맨틱 네일",
+    "image": "images/gallery/2026-06/nail_011.jpg",
+    "visible": "Y",
+    "sortOrder": 13
+  },
+  {
+    "id": "202606-nail-012",
+    "category": "nail",
+    "categoryName": "네일",
+    "title": "코랄 글로우 시럽 네일",
+    "description": "맑은 코랄 핑크 시럽 베이스에 은은한 실버 펄을 더한 데일리 젤네일",
+    "image": "images/gallery/2026-06/nail_012.jpg",
+    "visible": "Y",
+    "sortOrder": 14
+  },
+  {
+    "id": "202606-nail-013",
+    "category": "nail",
+    "categoryName": "네일",
+    "title": "파스텔 아가일 포인트 네일",
+    "description": "맑은 스카이블루 베이스에 핑크, 라벤더, 민트 컬러의 아가일 패턴을 더한 젤네일",
+    "image": "images/gallery/2026-06/nail_013.jpg",
+    "visible": "Y",
+    "sortOrder": 15
+  },
+  {
+    "id": "202606-nail-014",
+    "category": "nail",
+    "categoryName": "네일",
+    "title": "누드 베이지 미니멀 네일",
+    "description": "은은한 누드 베이지 컬러에 작은 실버 파츠를 더한 미니멀 젤네일",
+    "image": "images/gallery/2026-06/nail_014.jpg",
+    "visible": "Y",
+    "sortOrder": 16
+  },
+  {
+    "id": "202606-nail-015",
+    "category": "nail",
+    "categoryName": "네일",
+    "title": "갤럭시 마그넷 네일",
+    "description": "딥 블랙 베이스에 핑크와 퍼플빛 마그넷 펄을 더한 젤네일",
+    "image": "images/gallery/2026-06/nail_015.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-nail-016",
+    "category": "nail",
+    "categoryName": "네일",
+    "title": "라일락 오로라 마그넷 네일",
+    "description": "은은한 라일락 핑크 베이스에 오로라 마그넷 펄을 더한 젤네일",
+    "image": "images/gallery/2026-06/nail_016.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-pedi-001",
+    "category": "pedi",
+    "categoryName": "패디",
+    "title": "오로라 글라스 주얼 패디",
+    "description": "오로라빛 글라스 파츠와 골드 글리터를 더한 화려한 썸머 패디",
+    "image": "images/gallery/2026-06/pedi_001-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-pedi-002",
+    "category": "pedi",
+    "categoryName": "패디",
+    "title": "오팔 실버 썸머 패디",
+    "description": "은은한 실버 베이스에 오팔빛 펄감을 더한 썸머 패디",
+    "image": "images/gallery/2026-06/pedi_002-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-pedi-003",
+    "category": "pedi",
+    "categoryName": "패디",
+    "title": "민트 오로라 썸머 패디",
+    "description": "민트와 블루빛이 은은하게 감도는 오로라 펄 패디",
+    "image": "images/gallery/2026-06/pedi_003-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-pedi-004",
+    "category": "pedi",
+    "categoryName": "오로라 하트 패디",
+    "title": "맑은 핑크 시럽 컬러로 완성한 내추럴 무드 패디",
+    "description": "",
+    "image": "images/gallery/2026-06/pedi_004-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-pedi-005",
+    "category": "pedi",
+    "categoryName": "패디",
+    "title": "유리스톤패디",
+    "description": "투명한 누드 시럽 베이스에 오로라 글리터를 더한 패디",
+    "image": "images/gallery/2026-06/pedi_005-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-pedi-006",
+    "category": "pedi",
+    "categoryName": "패디",
+    "title": "진주파우더",
+    "description": "부드러운 밀키 베이스에 오로라빛 펄감을 더한 클린 무드 패디",
+    "image": "images/gallery/2026-06/pedi_006-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-pedi-007",
+    "category": "pedi",
+    "categoryName": "패디",
+    "title": "오렌지 글리터 패디",
+    "description": "선명한 오렌지 컬러에 반짝이는 글리터 포인트를 더한 썸머 패디",
+    "image": "images/gallery/2026-06/pedi_007-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-pedi-008",
+    "category": "pedi",
+    "categoryName": "패디",
+    "title": "딥 오션 주얼 풀 스톤 패디",
+    "description": "깊이감 있는 딥 블루 컬러에 오로라 글라스 파츠를 더한 주얼 패디",
+    "image": "images/gallery/2026-06/pedi_008-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-pedi-009",
+    "category": "pedi",
+    "categoryName": "패디",
+    "title": "블랙 트위드 포인트 패디",
+    "description": "깔끔한 블랙 컬러에 화이트와 실버빛 트위드 아트를 더한 패디",
+    "image": "images/gallery/2026-06/pedi_009-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-pedi-010",
+    "category": "pedi",
+    "categoryName": "패디",
+    "title": "논오버레아풀스톤",
+    "description": "깨끗한 화이트 컬러에 실버 크리스탈과 주얼 파츠를 가득 채운 포인트 패디",
+    "image": "images/gallery/2026-06/pedi_010-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-pedi-011",
+    "category": "pedi",
+    "categoryName": "패디",
+    "title": "모노그램 블랙 앤 화이트 패디",
+    "description": "깔끔한 화이트와 시크한 블랙 컬러에 모노그램 패턴을 더한 포인트 패디",
+    "image": "images/gallery/2026-06/pedi_011-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-pedi-012",
+    "category": "pedi",
+    "categoryName": "패디",
+    "title": "밀키 오로라 썸머 패디",
+    "description": "깨끗한 밀키 화이트 베이스에 은은한 오로라 펄을 더한 패디",
+    "image": "images/gallery/2026-06/pedi_012-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-pedi-013",
+    "category": "pedi",
+    "categoryName": "패디",
+    "title": "코랄 블루 라인 패디",
+    "description": "맑은 코랄 핑크 시럽 베이스에 선명한 스카이블루 라인을 더한 썸머 패디",
+    "image": "images/gallery/2026-06/pedi_013-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-pedi-014",
+    "category": "pedi",
+    "categoryName": "패디",
+    "title": "아쿠아 오로라 썸머 패디",
+    "description": "청량한 아쿠아 블루 펄 베이스에 핑크와 그린빛 오로라 포인트를 더한 썸머 패디",
+    "image": "images/gallery/2026-06/pedi_014-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-pedi-015",
+    "category": "pedi",
+    "categoryName": "패디",
+    "title": "민트 리프 가든 패디",
+    "description": "차분한 세이지 그린 베이스에 민트빛 잎사귀 아트를 더한 패디",
+    "image": "images/gallery/2026-06/pedi_015-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 11
+  },
+  {
+    "id": "202606-pedi-016",
+    "category": "pedi",
+    "categoryName": "패디",
+    "title": "윈터 스노우 글리터 패디",
+    "description": "딥 네이비와 포레스트 그린 컬러에 화이트 눈꽃 아트를 더한 겨울 시즌 패디",
+    "image": "images/gallery/2026-06/pedi_016-optimized.jpg",
+    "visible": "Y",
+    "sortOrder": 13
+  }
+]
